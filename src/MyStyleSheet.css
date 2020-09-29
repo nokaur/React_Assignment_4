@@ -1,0 +1,15 @@
+.table {
+  width: 150px;
+  height: 100px;
+}
+.button {
+  width: 30px;
+  height: 30px;
+}
+.sign{
+  width: 30px;
+  height: 30px;
+  background-color:crimson;
+  color:white;
+  
+}
