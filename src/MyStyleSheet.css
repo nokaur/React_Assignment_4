@@ -1,21 +1,40 @@
 .table {
-  width: 150px;
-  height: 100px;
   font-family: Calibri;
+  font-size: 20px;
   border-color: red;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-collapse: collapse;
+  background-color: maroon;
+  margin-top: 100px;
+  margin-left: 50px;
 }
 .button {
-  width: 32px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
   font-family: Calibri;
+  font-size: 20px;
+  border-color: crimson;
+  border-width: 0.5px;
 }
 .sign {
-  width: 32px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
   background-color: crimson;
+  border-color: crimson;
+  border-width: 0.5px;
   color: white;
   font-family: Calibri;
+  font-size: 20px;
+}
+.output {
+  background-color: maroon;
+  height: 42px;
+  color: white;
+  margin-top: -233px;
+  text-align: right;
+  width: 178px;
+  font-family: Calibri;
+  font-size: 20px;
+  margin-left: 50px;
 }
