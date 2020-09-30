@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles.css";
 
-class Output extends Component {
+class Result extends Component {
   render() {
     return (
       <div className="output">
@@ -11,4 +11,4 @@ class Output extends Component {
   }
 }
 
-export default Output;
+export default Result;

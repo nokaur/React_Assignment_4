@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles.css";
 import Calculator from "./Calculator";
-import Output from "./Output";
+import Result from "./Result";
 import "./MyStyleSheet.css";
 
 class App extends Component {
@@ -36,7 +36,7 @@ class App extends Component {
     return (
       <div className="App">
         <Calculator buttonPressed={this.buttonPressed} />
-        <Output result={this.state.result} />
+        <Result result={this.state.result} />
       </div>
     );
   }
